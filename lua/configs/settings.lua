@@ -21,7 +21,8 @@ vim.cmd([[ syntax on ]])
 vim.cmd([[ set bg=dark ]])
 vim.cmd([[ set termguicolors ]])
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd[[colorscheme tokyonight]]
+-- vim.cmd([[colorscheme gruvbox]])
 --vim.cmd([[ colorscheme onedark ]])
 --vim.cmd([[ colorscheme gruvbox ]])
 --vim.cmd([[
@@ -39,5 +40,9 @@ vim.cmd([[
 ]])
 
 vim.cmd([[ let extension = expand('%:e') ]])
+
+
+
+
 
 

@@ -40,5 +40,14 @@ return require('packer').startup(function()
   use('peitalin/vim-jsx-typescript')
   use('neoclide/vim-jsx-improve')
   use('ellisonleao/gruvbox.nvim' )
+  use('folke/tokyonight.nvim')
+  use('kyazdani42/nvim-web-devicons')
+  use {
+  'romgrk/barbar.nvim',
+  requires = {'kyazdani42/nvim-web-devicons'}
+}
+use('glepnir/dashboard-nvim')
+use('lewis6991/gitsigns.nvim')
+use('phaazon/hop.nvim')
 end)
 
