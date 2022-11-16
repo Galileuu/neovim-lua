@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["barbar.nvim"] = {
-    loaded = true,
-    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -119,6 +114,21 @@ _G.packer_plugins = {
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -129,10 +139,10 @@ _G.packer_plugins = {
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
-  ["hop.nvim"] = {
+  harpoon = {
     loaded = true,
-    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/hop.nvim",
-    url = "https://github.com/phaazon/hop.nvim"
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -179,6 +189,11 @@ _G.packer_plugins = {
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -214,20 +229,10 @@ _G.packer_plugins = {
     path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["typescript-vim"] = {
+  ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/typescript-vim",
-    url = "https://github.com/leafgarland/typescript-vim"
-  },
-  ["vim-jsx-improve"] = {
-    loaded = true,
-    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/vim-jsx-improve",
-    url = "https://github.com/neoclide/vim-jsx-improve"
-  },
-  ["vim-jsx-typescript"] = {
-    loaded = true,
-    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/vim-jsx-typescript",
-    url = "https://github.com/peitalin/vim-jsx-typescript"
+    path = "/Users/galileu/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-simple-emoji"] = {
     loaded = true,

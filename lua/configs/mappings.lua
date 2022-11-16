@@ -12,11 +12,9 @@ vim.cmd([[ noremap <leader>ot :tabnew<cr> ]])
 vim.cmd([[ nnoremap <leader>ff :Telescope git_files<cr> ]])
 vim.cmd([[ :au BufWritePost * :Prettier ]])
 
+-- Harpoon
+vim.cmd([[ noremap <leader>h :lua require("harpoon.ui").toggle_quick_menu()<cr> ]])
+vim.cmd([[ noremap <leader>m :lua require("harpoon.mark").add_file()<cr> ]])
+vim.cmd([[ noremap <C-f> :Telescope live_grep<cr> ]])
+vim.cmd([[ noremap <C-e> :NvimTreeFindFile<cr> ]])
 
-
-
--- place this in one of your configuration file(s)
-vim.api.nvim_set_keymap('', 'f', "<cmd>lua require'hop'.hint_char2({ direction = require'hop.hint'.HintDirection.AFTER_CURSOR, current_line_only = false })<cr>", {})
-vim.api.nvim_set_keymap('', 'F', "<cmd>lua require'hop'.hint_char2({ direction = require'hop.hint'.HintDirection.BEFORE_CURSOR, current_line_only = false })<cr>", {})
---vim.api.nvim_set_keymap('', 't', "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.AFTER_CURSOR, current_line_only = true, hint_offset = -1 })<cr>", {})
---vim.api.nvim_set_keymap('', 'T', "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.BEFORE_CURSOR, current_line_only = true, hint_offset = 1 })<cr>", {})

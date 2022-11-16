@@ -21,16 +21,9 @@ vim.cmd([[ syntax on ]])
 vim.cmd([[ set bg=dark ]])
 vim.cmd([[ set termguicolors ]])
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd[[colorscheme tokyonight]]
--- vim.cmd([[colorscheme gruvbox]])
---vim.cmd([[ colorscheme onedark ]])
---vim.cmd([[ colorscheme gruvbox ]])
---vim.cmd([[
---  let g:onedark_style = 'darker'
---  colorscheme onedark
---]])
-
-
+-- vim.cmd[[colorscheme tokyonight-night]]
+vim.cmd[[colorscheme tokyonight-moon]]
+--vim.cmd[[colorscheme dracula]]
 
 vim.cmd([[
   augroup packer_user_config
